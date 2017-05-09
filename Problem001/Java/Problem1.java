@@ -1,7 +1,7 @@
 public class Problem1{
     public static void main(String[] args){
         int limit=1000;
-        System.out.println(String.format("The sum of all the multiples of 3 or 5 below %d is: %d\n",limit,(geometricSolution(limit))));
+        System.out.println(geometricSolution(limit));
     }
     
     public static int geometricSolution(int limit){

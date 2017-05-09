@@ -6,7 +6,7 @@ import (
 
 func main(){
 	 var limit = 1000
-	fmt.Printf("The sum of all the multiples of 3 or 5 below %d is: %d\n",limit,(geometricSolution(limit)))
+	fmt.Println(geometricSolution(limit))
 }
 
 func geometricSolution(limit int) int {
