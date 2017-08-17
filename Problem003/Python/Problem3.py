@@ -11,7 +11,7 @@ def getLargestPrimeFactor(n):
 
 	factor = 3
 	maxFactor = int( math.sqrt( n ) )
-	while ( n > 1 and factor < maxFactor ):
+	while ( n > 1 and factor <= maxFactor ):
 		if(n % factor == 0):
 			n = n // factor
 			lastFactor = factor
@@ -28,6 +28,7 @@ def main():
 	print(getLargestPrimeFactor(600851475143))
 	#print(getLargestPrimeFactor(13195))
 	#print(getLargestPrimeFactor(13195))
+	#print(getLargestPrimeFactor(22))
 
 if __name__ == "__main__":
 	main()
